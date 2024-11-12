@@ -1,0 +1,29 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+.nav {
+  font-family: "Creato Display", "Arial";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--white, #fff);
+  text-align: center;
+  position: fixed;
+  display: flex;
+  padding-top: 3%;
+  z-index: 100;
+  opacity: 100;
+}
+
+.nav img {
+  width: 90%;
+}
+
+.nav-text {
+  padding-top: 10%;
+}
+
+.nav a {
+  text-decoration: none;
+}
