@@ -1,0 +1,79 @@
+.furieuse {
+  background-color: #060c11;
+  margin-top: 20%;
+  padding-bottom: 30%;
+}
+
+.vente {
+  display: flex;
+}
+
+.logo-furieuse {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.text-livre {
+  color: var(--white, #fff);
+  font-family: "Creato Display", "Arial";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title-details {
+  color: var(--white, #fff);
+  padding: 32px 0 13px 0;
+  font-family: "Creato Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.buy {
+  margin-top: 8%;
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  color: var(--black, var(--black, #000));
+  text-align: center;
+  font-family: "Creato Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  width: 39%;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--purple, #e6affa);
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  background: var(--purple, #d389ee);
+}
+
+.livre-furieuse {
+  width: 100%;
+  padding: 0;
+  margin-top: -200px;
+  transition: transform, 0.2s;
+}
+
+.livre-furieuse:hover {
+  transform: translateY(10px) scale(1.1);
+}
