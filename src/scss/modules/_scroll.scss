@@ -1,4 +1,72 @@
-.scroll-img img {
-  width: 1000%;
-  height: 1000%;
+.slider-mask {
+  overflow: hidden;
+  /*  height: 100vh;*/
+}
+
+.slider-container {
+  display: inline-flex;
+  height: 100vh;
+  gap: 10px;
+}
+
+.spacer {
+  height: 100vh;
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc33,
+    #606dbc33 10px,
+    #606dbc00 10px,
+    #606dbc00 20px
+  );
+}
+
+.slider-mask {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slider-container {
+  display: inline-flex;
+  height: 100%;
+  gap: 10px;
+}
+
+.slider-item {
+  width: calc(100vw - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-item-1 {
+  width: calc(110vw - 30px);
+  background-image: url(../../img/bg1-scroll.png);
+  background-size: cover;
+  position: relative;
+}
+
+.scroll-1 {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+}
+
+.scroll-2 {
+  width: 34%;
+  position: absolute;
+  top: 48%;
+  left: 54%;
+}
+
+.scroll-3 {
+  width: 17%;
+  position: absolute;
+  top: 10%;
+  left: 77%;
 }
