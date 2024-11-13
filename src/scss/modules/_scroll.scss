@@ -6,16 +6,13 @@
 .slider-container {
   display: inline-flex;
   height: 100vh;
-  gap: 10px;
 }
 
 .spacer {
   height: 100vh;
-  margin-block: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
   background: repeating-linear-gradient(
     45deg,
     #606dbc33,
@@ -33,7 +30,6 @@
 .slider-container {
   display: inline-flex;
   height: 100%;
-  gap: 10px;
 }
 
 .slider-item {
@@ -41,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px red solid;
 }
 
 .slider-item-1 {
@@ -69,4 +66,53 @@
   position: absolute;
   top: 10%;
   left: 77%;
+}
+
+.scroll-4 {
+  width: 6%;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+}
+
+.scroll-5 {
+  width: 4%;
+  position: absolute;
+  top: 17%;
+  left: 44%;
+}
+
+.scroll-6 {
+  width: 9%;
+  position: absolute;
+  top: 55%;
+  left: 41%;
+}
+
+.scroll-7 {
+  width: 4%;
+  position: absolute;
+  top: 12%;
+  left: 52.5%;
+}
+
+.scroll-78 {
+  width: 4%;
+  position: absolute;
+  top: 23%;
+  left: 49%;
+}
+
+.scroll-8 {
+  width: 5%;
+  position: absolute;
+  top: 37%;
+  left: 57.5%;
+}
+
+.scroll-9 {
+  width: 9%;
+  position: absolute;
+  top: 17%;
+  left: 68%;
 }
