@@ -37,13 +37,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px red solid;
 }
 
 .slider-item-1 {
   width: calc(110vw - 30px);
   background-image: url(../../img/bg1-scroll.png);
   background-size: cover;
+  position: relative;
+}
+
+.slider-item-2 {
+  width: calc(140vw - 30px);
+  position: relative;
+}
+
+.slider-item-3 {
+  width: calc(140vw - 30px);
+  position: relative;
+}
+
+.slider-item-4 {
+  width: calc(150vw - 30px);
+  background-image: url(../../img/bg3-scroll.png);
+  background-size: cover;
+  background-position: 100%;
   position: relative;
 }
 
@@ -69,50 +86,113 @@
 }
 
 .scroll-4 {
-  width: 6%;
+  width: 18%;
   position: absolute;
-  top: 20%;
-  left: 31%;
+  top: 16%;
+  left: 13%;
 }
 
 .scroll-5 {
-  width: 4%;
+  width: 13%;
   position: absolute;
-  top: 17%;
-  left: 44%;
+  top: 12%;
+  left: 47%;
 }
 
 .scroll-6 {
-  width: 9%;
+  width: 27%;
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 41%;
 }
 
 .scroll-7 {
-  width: 4%;
+  width: 12%;
   position: absolute;
-  top: 12%;
-  left: 52.5%;
+  top: 10%;
+  left: 75%;
 }
 
 .scroll-78 {
-  width: 4%;
+  width: 12%;
   position: absolute;
-  top: 23%;
-  left: 49%;
+  top: 20%;
+  left: 65%;
 }
 
 .scroll-8 {
-  width: 5%;
+  width: 13%;
   position: absolute;
-  top: 37%;
-  left: 57.5%;
+  top: 35%;
+  left: 90%;
 }
 
 .scroll-9 {
-  width: 9%;
+  width: 25%;
   position: absolute;
-  top: 17%;
-  left: 68%;
+  top: 15%;
+  left: 19%;
+}
+
+.scroll-10 {
+  width: 29%;
+  position: absolute;
+  top: 58%;
+  left: 26%;
+}
+
+.scroll-1011 {
+  width: 11%;
+  position: absolute;
+  top: 34%;
+  left: 47%;
+}
+
+.scroll-11 {
+  width: 12%;
+  position: absolute;
+  top: 11%;
+  left: 63%;
+}
+
+.scroll-12 {
+  width: 9.5%;
+  position: absolute;
+  top: 33%;
+  left: 78.5%;
+}
+
+.scroll-13 {
+  width: 8.5%;
+  position: absolute;
+  top: 33%;
+  left: 5.5%;
+}
+
+.scroll-14 {
+  width: 9.5%;
+  position: absolute;
+  top: 36%;
+  left: 17%;
+}
+
+.scroll-15 {
+  width: 14%;
+  position: absolute;
+  top: 13%;
+  left: 30.5%;
+}
+
+.scroll-16 {
+  width: 24%;
+  position: absolute;
+  top: 63%;
+  left: 27.5%;
+}
+
+.scroll-17 {
+  width: 15%;
+  position: absolute;
+  top: 28.5%;
+  left: 47%;
 }
