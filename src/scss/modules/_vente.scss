@@ -1,7 +1,7 @@
 .furieuse {
   background-color: #060c11;
   margin-top: 20%;
-  padding-bottom: 30%;
+  padding-bottom: 20%;
 }
 
 .vente {
@@ -23,7 +23,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -31,7 +32,7 @@ h2 {
 .title-details {
   color: var(--white, #fff);
   padding: 32px 0 13px 0;
-  font-family: "Creato Display";
+  font-family: "Creato Display", "Arial";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +48,7 @@ h2 {
 .button {
   color: var(--black, var(--black, #000));
   text-align: center;
-  font-family: "Creato Display";
+  font-family: "Creato Display", "Arial";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

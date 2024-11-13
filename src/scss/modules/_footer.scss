@@ -1,0 +1,82 @@
+.lign {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 10%;
+}
+
+.logo-dargaud {
+  padding: 0;
+  margin-left: 7.5%;
+}
+
+.footer-all {
+  display: flex;
+}
+
+.logos {
+  padding: 8% 0 5% 0;
+  display: flex;
+}
+
+.footer-contact-icon {
+  width: 50%;
+}
+
+.text-footer {
+  color: var(--white, #fff);
+  padding-bottom: 18px;
+  font-family: "Creato Display", "Arial";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title-footer {
+  color: var(--white, #fff);
+  padding-bottom: 30px;
+  font-family: "Creato Display", "Arial";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.space-title {
+  padding-top: 7%;
+}
+
+.newsletter {
+  display: flex;
+  gap: 30px;
+}
+
+.subscribe {
+  display: flex;
+  width: 39%;
+  padding: 15px 30px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid var(--purple, #e6affa);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: "Creato Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rights {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Creato Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7% 0 2% 0;
+}
