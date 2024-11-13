@@ -9,17 +9,11 @@
 }
 
 .spacer {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc33,
-    #606dbc33 10px,
-    #606dbc00 10px,
-    #606dbc00 20px
-  );
+  background-color: #060c11;
 }
 
 .slider-mask {
@@ -30,6 +24,7 @@
 .slider-container {
   display: inline-flex;
   height: 100%;
+  background-color: #060c11;
 }
 
 .slider-item {
@@ -83,6 +78,21 @@
   position: absolute;
   top: 10%;
   left: 77%;
+}
+
+.scroll-hover {
+  width: 18%;
+  position: absolute;
+  top: 16%;
+  left: 13%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.scroll-hover:hover {
+  opacity: 100;
+  transition: smooth;
+  transition: opacity 0.5s;
 }
 
 .scroll-4 {
