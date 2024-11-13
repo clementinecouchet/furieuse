@@ -1,0 +1,62 @@
+.wrapper {
+  height: 250vh;
+  background-color: #060c11;
+}
+
+.container-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.epee {
+  width: 4%;
+  position: absolute;
+  top: 28%;
+  left: 32.5%;
+  transform: rotate(0.115deg);
+  background: black;
+}
+
+.img-epee {
+  width: 750%;
+}
+
+.bulle {
+  position: absolute;
+  left: 32.5%;
+  top: 28%;
+  opacity: 0;
+}
+
+.bulle-1 {
+  width: 30%;
+}
+
+.bulle-2 {
+  width: 70%;
+  transform: rotate(20.15deg);
+}
+
+.bulle-3 {
+  width: 70%;
+  transform: rotate(-20.15deg);
+}
+
+.bulle-4 {
+  width: 60%;
+  transform: rotate(-40.15deg);
+}
+
+.bulle-5 {
+  width: 80%;
+  transform: rotate(20.15deg);
+}
+
+.bulle-6 {
+  width: 38%;
+}
+
+.bulle-7 {
+  width: 50%;
+}
