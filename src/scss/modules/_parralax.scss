@@ -1,28 +1,35 @@
 .parralax-img-1 {
   width: 100%;
+  position: static;
 }
 .parralax-img-2 {
   width: 100%;
-  top: 8%;
+  top: -1%;
 }
 .parralax-img-3 {
   width: 33%;
-  top: 37%;
+  top: 30%;
   left: 35%;
 }
 .parralax-img-4 {
   width: 35%;
-  top: 57%;
-  left: 45%;
+  top: 46%;
+  left: 42%;
 }
 
-.parralax-container {
-  margin-top: 1000px;
+.parallax-container {
   position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax-element-cover {
+  width: 100%;
+  height: 100%;
 }
 
 .parralax-img {

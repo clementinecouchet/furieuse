@@ -73,29 +73,22 @@ gsap
       pin: true, // "Pin" fixe l'élément dans la fenêtre pendant que l'animation se déroule
     },
   })
-  .to("#element-3", {
-    y: "50%", // Déplace l'élément vers le bas
-    x: "-10%", // Déplace l'élément vers la gauche
+  .to(".parralax-img-3", {
+    top: "25%", // Déplace l'élément vers le bas
+    // Déplace l'élément vers la gauche
+    opacity: 0,
   })
   .to(
-    "#element-1",
+    ".parralax-img-2",
     {
-      y: "-40%",
+      top: "-50%",
     },
     0
   )
   .to(
-    "#element-2",
+    ".parralax-img-4",
     {
-      y: "-100%",
-      x: "5%",
-    },
-    0
-  )
-  .to(
-    "#element-4",
-    {
-      y: "30%",
+      top: "-5%",
     },
     0
   );
