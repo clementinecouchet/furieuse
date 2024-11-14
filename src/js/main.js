@@ -64,36 +64,45 @@ gsap
   });
 
 // PARRALAX
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".parallax-container", // Élément déclencheur : quand cet élément atteint le point de début défini, l'animation commence
-      start: "top top", // L'animation démarre quand le haut de .parallax-container atteint le haut de la fenêtre
-      scrub: true, // Rend l'animation fluide et synchronisée avec le défilement
-      pin: true, // "Pin" fixe l'élément dans la fenêtre pendant que l'animation se déroule
-    },
-  })
+var tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".parallax-container", // Élément déclencheur : quand cet élément atteint le point de début défini, l'animation commence
+    start: "top top", // L'animation démarre quand le haut de .parallax-container atteint le haut de la fenêtre
+    end: "+=150%",
+    scrub: true, // Rend l'animation fluide et synchronisée avec le défilement
+    pin: true, // "Pin" fixe l'élément dans la fenêtre pendant que l'animation se déroule
+    markers: false,
+  },
+});
 
-  .to(".parralax-img-3", {
+tl.to(
+  ".parralax-img-3",
+  {
     top: "25%", // Déplace l'élément vers le bas
     // Déplace l'élément vers la gauche
     opacity: 0,
-  })
-  .to(
-    ".parralax-img-2",
-    {
-      top: "-40%",
-    },
-    0
-  )
+  },
+  0
+);
+tl.to(
+  ".parralax-img-2",
+  {
+    bottom: "0%", // touche le bas à la fin
+  },
+  0
+);
 
-  .to(".parralax-img-1", {
+tl.to(
+  ".parralax-img-1",
+  {
     top: "0.5%",
-  })
-  .to(
-    ".parralax-img-4",
-    {
-      top: "-10%",
-    },
-    0
-  );
+  },
+  0
+);
+tl.to(
+  ".parralax-img-4",
+  {
+    bottom: "35%",
+  },
+  0
+);

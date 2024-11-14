@@ -14,6 +14,7 @@
   padding-top: 3%;
   z-index: 100;
   opacity: 100;
+  white-space: nowrap;
 }
 
 .nav img {
@@ -26,4 +27,16 @@
 
 .nav a {
   text-decoration: none;
+}
+
+@media (min-width: 1200px) and (max-width: 1760px) {
+  .nav-text {
+    padding-left: 250%;
+  }
+}
+
+@media (min-width: 1761px) {
+  .nav-text {
+    padding-left: 200%;
+  }
 }

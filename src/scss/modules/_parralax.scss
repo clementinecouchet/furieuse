@@ -3,17 +3,22 @@
 }
 .parralax-img-2 {
   width: 100%;
-  top: -1%;
+  bottom: 20%;
 }
 .parralax-img-3 {
   width: 33%;
-  top: 35%;
+  top: 22%;
   left: 34%;
 }
 .parralax-img-4 {
   width: 35%;
-  top: 46%;
+  bottom: 30%;
   left: 42%;
+}
+
+.parralax {
+  height: 84vw;
+  // overflow-y: hidden;
 }
 
 .parallax-container {
@@ -47,8 +52,4 @@
   height: 46vh;
   background: linear-gradient(0deg, #000 26.5%, rgba(0, 0, 0, 0) 100%);
   transform: translateY(250%);
-}
-
-.parralax {
-  height: 100vh;
 }
