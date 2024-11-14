@@ -1,6 +1,5 @@
 .parralax-img-1 {
   width: 100%;
-  position: static;
 }
 .parralax-img-2 {
   width: 100%;
@@ -8,8 +7,8 @@
 }
 .parralax-img-3 {
   width: 33%;
-  top: 30%;
-  left: 35%;
+  top: 35%;
+  left: 34%;
 }
 .parralax-img-4 {
   width: 35%;
@@ -35,7 +34,6 @@
 .parralax-img {
   position: absolute;
   object-fit: cover;
-  will-change: transform;
 }
 
 // .parralax-end-shadow {
