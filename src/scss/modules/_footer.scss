@@ -49,34 +49,74 @@
 }
 
 .newsletter {
+}
+
+.inscription {
   display: flex;
   gap: 30px;
+  background-color: #060c11;
 }
 
 .subscribe {
   display: flex;
-  width: 39%;
-  padding: 15px 30px;
+  width: 454px;
   align-items: center;
+  justify-content: start;
+
   gap: 10px;
   flex-shrink: 0;
   border: 1px solid var(--purple, #e6affa);
-  color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  font-family: "Creato Display";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .rights {
   color: var(--white, #fff);
   text-align: center;
-  font-family: "Creato Display";
+  font-family: "Creato Display", "Arial";
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 7% 0 2% 0;
+}
+
+.textfield input {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: "Creato Display", "Arial";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px 50% 15px 30px;
+  background-color: #060c11;
+}
+
+.button-subscribe {
+  color: var(--black, var(--black, #000));
+  text-align: center;
+  background: var(--purple, #e6affa);
+  font-family: "Creato Display", "Arial";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  width: 214px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a:hover,
+.hover-infos:hover {
+  color: #e6affa;
 }

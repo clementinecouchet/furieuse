@@ -61,7 +61,7 @@
       <div class="parralax-end-shadow"></div>
     </header>
     <main>
-      <div class="slider-mask">
+      <div id="found-history" class="slider-mask">
         <div class="slider-container">
           <div class="slider-item-1">
             <img
@@ -203,23 +203,53 @@
           </div>
         </div>
       </div>
-      <div class="furieuse">
+      <div id="found-shop" class="furieuse">
         <div class="col-12">
           <h1>
-            <img
-              src="../img/logo-nav.png"
-              alt="furieuse"
-              class="col-4 offset-1 logo-furieuse"
-            />
+            <a href="https://www.dargaud.com/bd/furieuse-bda5430320">
+              <img
+                src="../img/logo-nav.png"
+                alt="furieuse"
+                class="col-4 offset-1 logo-furieuse"
+              />
+            </a>
           </h1>
         </div>
         <div class="col-12 vente">
           <div class="col-5 offset-1 vente-infos">
             <p class="text-livre">
-              Après « Le Mystère du monde quantique » et « Sous Terre », Mathieu
-              Burniat revient avec « Furieuse », une pure fiction scénarisée par
-              Geoffroy Monde (« Poussière », « Comment réussir » et « De rien
-              »). <br />
+              Après
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/"
+                  >« Le Mystère du monde quantique »</a
+                >
+              </span>
+              et
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">« Sous Terre » </a> </span
+              >,
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">Mathieu Burniat</a>
+              </span>
+              revient avec
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">« Furieuse »</a>
+              </span>
+              , une pure fiction scénarisée par
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">Geoffroy Monde</a>
+              </span>
+              (
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/"> « Poussière »</a> </span
+              >,
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">« Comment réussir » </a>
+              </span>
+              et
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">« De rien » </a> </span
+              >). <br />
               <br />
 
               Le roi Arthur, celui de la légende ? Un vieil ivrogne décrépit qui
@@ -238,10 +268,23 @@
             </p>
             <h2 class="title-details">Détails</h2>
             <p class="text-livre">
-              Une BD de Geoffroy Monde et Mathieu Burniat <br />
-              édité par DARGAUD de 240 pages. <br />
-              Date de parution : 14.10.2022 <br />
-              ISBN-13 : 978-2205203226
+              Une BD de
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">Geoffroy Monde</a>
+              </span>
+              et
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">Mathieu Burniat</a>
+              </span>
+              <br />
+              édité par
+              <span class="hover-infos">
+                <a href="https://www.dargaud.com/">DARGAUD</a>
+              </span>
+              de <span class="hover-infos">240 pages</span>. <br />
+              Date de parution : <span class="hover-infos"> 14.10.2022</span>
+              <br />
+              <span class="hover-infos">ISBN-13 : 978-2205203226</span>
             </p>
             <div class="buy">
               <div class="button">Acheter maintenant</div>
@@ -249,11 +292,13 @@
             </div>
           </div>
           <div class="col-6">
-            <img
-              src="../img/book.png"
-              alt="livre furieuse"
-              class="livre-furieuse"
-            />
+            <a href="https://www.dargaud.com/bd/furieuse-bda5430320">
+              <img
+                src="../img/book.png"
+                alt="livre furieuse"
+                class="livre-furieuse"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -262,11 +307,13 @@
       <div class="lign"></div>
       <div class="col-12">
         <h1>
-          <img
-            src="../img/logo-dargaud.png"
-            alt="dargaud"
-            class="col-4 offset-1 logo-dargaud"
-          />
+          <a href="https://www.dargaud.com/">
+            <img
+              src="../img/logo-dargaud.png"
+              alt="dargaud"
+              class="col-4 offset-1 logo-dargaud"
+            />
+          </a>
         </h1>
       </div>
       <div class="col-12 footer-all">
@@ -294,14 +341,28 @@
               />
             </a>
           </div>
-          <p class="text-footer">CONDITIONS GÉNÉRALES</p>
-          <p class="text-footer">POLITIQUE DE CONFIDENTIALITÉ</p>
+          <div class="text-footer">
+            <a href="https://www.google.com/">CONDITIONS GÉNÉRALES</a>
+          </div>
+          <div class="text-footer">
+            <a href="https://www.google.com/">POLITIQUE DE CONFIDENTIALITÉ</a>
+          </div>
           <h3 class="title-footer space-title">
             ABONNE-TOI À NOTRE NEWLETTERS
           </h3>
           <div class="newsletter">
-            <div class="subscribe">INSÉREZ VOTRE E-MAIL ICI</div>
-            <div class="button">s'abonner</div>
+            <form class="inscription">
+              <div class="textfield subscribe">
+                <input
+                  type="code"
+                  id="code"
+                  name="code"
+                  class="code-input"
+                  placeholder="INSÉREZ VOTRE E-MAIL ICI"
+                />
+              </div>
+              <label for="code" class="button-subscribe"> s'abonner </label>
+            </form>
           </div>
         </div>
         <div class="col-3 offset-2 footer-propos">
@@ -323,7 +384,10 @@
         </div>
       </div>
       <div class="col-2 offset-5 rights">
-        Tous droits reservés ©Dargaud 2023
+        Tous droits reservés
+        <span class="hover-infos">
+          <a href="https://www.dargaud.com/">©Dargaud 2023</a>
+        </span>
       </div>
     </footer>
     <script src="js/main.js" type="module"></script>
