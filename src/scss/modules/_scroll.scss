@@ -1,12 +1,4 @@
-.slider-mask {
-  overflow: hidden;
-  /*  height: 100vh;*/
-}
-
-.slider-container {
-  display: inline-flex;
-  height: 110vh;
-}
+//CONTAINER DU SCROLL
 
 .spacer {
   height: 20vh;
@@ -26,6 +18,8 @@
   height: 100%;
   background-color: #060c11;
 }
+
+//SLIDER
 
 .slider-item {
   width: calc(100vw - 30px);
@@ -58,6 +52,8 @@
   background-position: 100%;
   position: relative;
 }
+
+//IMG DANS LES SLIDER 1
 
 .scroll-1 {
   width: 20%;
@@ -94,6 +90,8 @@
   transition: smooth;
   transition: opacity 0.5s;
 }
+
+//IMG DANS LES SLIDER 2
 
 .scroll-4 {
   width: 18%;
@@ -137,6 +135,8 @@
   left: 90%;
 }
 
+//IMG DANS LES SLIDER 1
+
 .scroll-9 {
   width: 25%;
   position: absolute;
@@ -178,6 +178,8 @@
   top: 33%;
   left: 5.5%;
 }
+
+//IMG DANS LES SLIDER 4
 
 .scroll-14 {
   width: 9.5%;

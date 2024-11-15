@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
 img,
 video {
   display: block;
@@ -17,4 +13,9 @@ html {
   background-color: #060c11;
   color: white;
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

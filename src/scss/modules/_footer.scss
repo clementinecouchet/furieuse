@@ -5,6 +5,8 @@
   margin-bottom: 10%;
 }
 
+// INTERIEUR DU FOOTER
+
 .logo-dargaud {
   padding: 0;
   margin-left: 7.5%;
@@ -22,6 +24,8 @@
 .footer-contact-icon {
   width: 50%;
 }
+
+//TEXTES FOOTER
 
 .text-footer {
   color: var(--white, #fff);
@@ -48,8 +52,18 @@
   padding-top: 7%;
 }
 
-.newsletter {
+.rights {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Creato Display", "Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7% 0 2% 0;
 }
+
+// NEWSLETTER
 
 .inscription {
   display: flex;
@@ -66,17 +80,6 @@
   gap: 10px;
   flex-shrink: 0;
   border: 1px solid var(--purple, #e6affa);
-}
-
-.rights {
-  color: var(--white, #fff);
-  text-align: center;
-  font-family: "Creato Display", "Arial";
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding: 7% 0 2% 0;
 }
 
 .textfield input {
@@ -110,10 +113,6 @@
   align-items: center;
   gap: 10px;
   transition: background-color 0.5s;
-}
-
-a {
-  text-decoration: none;
 }
 
 footer a:hover,

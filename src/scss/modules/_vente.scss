@@ -1,11 +1,13 @@
+//CONTAINER
+
+.vente {
+  display: flex;
+}
+
 .furieuse {
   background-color: #060c11;
   margin-top: 20%;
   padding-bottom: 20%;
-}
-
-.vente {
-  display: flex;
 }
 
 .logo-furieuse {
@@ -13,14 +15,7 @@
   padding-bottom: 3%;
 }
 
-.text-livre {
-  color: var(--white, #fff);
-  font-family: "Creato Display", "Arial";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+//TEXTES
 
 h1,
 h2,
@@ -38,6 +33,17 @@ h3 {
   font-weight: 700;
   line-height: normal;
 }
+
+.text-livre {
+  color: var(--white, #fff);
+  font-family: "Creato Display", "Arial";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+// BOUTTON
 
 .buy {
   margin-top: 8%;
@@ -68,6 +74,8 @@ h3 {
 .button-subscribe:hover {
   background: var(--purple, #c25fe7);
 }
+
+//IMG LIVRE
 
 .livre-furieuse {
   width: 100%;

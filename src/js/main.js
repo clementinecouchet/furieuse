@@ -5,12 +5,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".slider-container", {
-  x: "-81.5%", // chaque élément .slider-item vaut 20% de .slider-container, on veut donc bouger la position x de -76% pour faire apparaitre le dernier élément: chaque élément a besoin de 20% pour apparaitre pleinement sur l'écran.
+  x: "-81.5%", // chaque élément .slider-item vaut 20% de .slider-container, on veut donc bouger la position x de -81,5% pour faire apparaitre le dernier élément: chaque élément a besoin de 20% pour apparaitre pleinement sur l'écran.
   scrollTrigger: {
     trigger: ".slider-mask",
     start: "top top",
     scrub: 1,
     pin: true,
+    end: "+=600%",
   },
 });
 
@@ -29,7 +30,7 @@ gsap
     //La position que la bulle va prendre, c'est mieux de mettre en pourcentage afin de garantir une meilleure responsivité
     left: "10%",
     top: "1%",
-    opacity: 1, // rendre visible
+    opacity: 0, // rendre visible
   })
   .to("#bulle-2", {
     left: "60%",
